@@ -86,3 +86,13 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+build/
+
+.DS_Store
+
+.coverage_artifacts/
+
+.coverage_contracts/
+
+*.env

@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "sign": "NODE_ENV=sign-vars.env node ./createSign.js"
+  },
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "ethereumjs-util": "5.1.2",
+    "ethers": "^5.0.24",
+    "web3": "1.3.0"
+  }
+}
