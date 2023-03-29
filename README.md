@@ -1,4 +1,4 @@
-# nft.contract.whitelistable.refundable
+# Whitelistable, refundable, airdropable NFT contract
 This repository contains a Solidity smart contract for minting Non-Fungible Tokens (NFTs) with various sale phases, signature-based whitelisting, airdrop functionality, and a refund mechanism if the required amount of sales is not reached.
 
 ## Table of Contents
@@ -7,7 +7,6 @@ This repository contains a Solidity smart contract for minting Non-Fungible Toke
 - [Installation](#installation)
 - [Testing](#testing)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - Multiple sale phases with adjustable pricing and duration
@@ -18,18 +17,27 @@ This repository contains a Solidity smart contract for minting Non-Fungible Toke
 ## Installation
 1. Clone the repository
 
-```git clone https://github.com/username/nft-minting-smart-contract.git```
+```bash
+git clone https://github.com/username/nft-minting-smart-contract.git
+```
+
 2. Navigate to the repository folder
 
-```cd nft-minting-smart-contract```
+```bash
+cd nft-minting-smart-contract
+```
 
 3. Install the required dependencies
 
-```npm install```
+```bash
+npm install
+```
 
 or
 
-```yarn```
+```bash
+yarn
+```
 
 ## Testing
 
@@ -38,21 +46,24 @@ This testing mode will geneate report with the gas compsumption of each method o
 
 1. Start ganache
 
-```yarn ganache```
+```bash   
+yarn ganache
+```
 
 2. Run the tests in another terminal
 
-```yarn test```
+```bash
+yarn test
+```
 
 ### With coverage
 This testing mode measures code coverage adn creates a report on a `./coverage` folder
 
 1. Run coverage tests
 
-```yarn coverage```
+```bash
+yarn coverage
+```
 
 ## Contributing
-Contributions are welcome!
-
-## License
-This project is licensed under the MIT License.
+Contributions are welcome! Create a pr for the code to be reviewed and start a conversation for the merge.
